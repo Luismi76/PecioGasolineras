@@ -1,0 +1,6 @@
+# Ejecutar script1.py a las 2:00 AM todos los días
+0 2 * * * root python /app/sql.py >> /var/log/cron.log 2>&1
+
+# Ejecutar script2.py a las 4:00 AM todos los días
+#0 4 * * * root python /app/script2.py >> /var/log/cron.log 2>&1
+
